@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 # 1. Load local secrets
 load_dotenv()
 
-# 2. ADK Imports
 from google.adk.agents import Agent
 from google.adk.models.google_llm import Gemini
 from google.adk.runners import InMemoryRunner

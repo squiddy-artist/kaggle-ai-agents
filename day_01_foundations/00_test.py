@@ -3,8 +3,24 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-# 1. Load the hidden API key from the .env file
-load_dotenv()
+try:
+    # 1. Load the hidden API key from the .env file
+    # This automatically finds your .env file and loads the variables inside it
+    load_dotenv()
+# ----------------------------------------
+    # Fetch the key from the local environment
+    GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+    
+    # Check if the key was actually found
+    if not GOOGLE_API_KEY:
+        raise ValueError("The GOOGLE_API_KEY variable was not found in the environment.")
+        
+    print("✅ Gemini API key setup complete.")
+    
+except Exception as e:
+    print(
+        f"🔑 Authentication Error: Please make sure you have created a '.env' file and added 'GOOGLE_API_KEY' to it. Details: {e}"
+    )
 
 # 2. Initialize the client (It automatically looks for GOOGLE_API_KEY in the environment)
 client = genai.Client()
