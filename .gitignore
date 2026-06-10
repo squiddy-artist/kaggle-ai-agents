@@ -1,0 +1,17 @@
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables (CRITICAL)
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# ADK Database & Telemetry
+.adk/
+adk.db
+
+# VS Code settings
+.vscode/

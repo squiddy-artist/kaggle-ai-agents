@@ -21,15 +21,17 @@ The project is chronologically organized to map directly to the course timeline:
 ```text
 kaggle-ai-agents/
 │
-├── .gitignore                # Prevents tracking of virtual environments and secrets
-├── .env                      # Local environment secrets (API Keys - Git ignored)
-├── requirements.txt          # Universal dependencies for replicating this workspace
+├── .gitignore                 # Prevents tracking of virtual environments and secrets
+├── .env                       # Local environment secrets (API Keys - Git ignored)
+├── requirements.txt           # Universal dependencies for replicating this workspace
 │
 ├── day_01_foundations/
-│   ├── 01_single_agent.py    # Autonomous Search Agent utilizing the ReAct framework
-│   └── 02_multi_agent.py     # Hierarchical Multi-Agent routing (Manager/Worker pattern)
+│   ├── 01_single_agent.py     # Autonomous Search Agent utilizing the ReAct framework
+│   └── 02_multi_agent.py      # Hierarchical Multi-Agent routing (Manager/Worker pattern)
 │
-├── day_02_tools/             # (Upcoming) Deep dive into custom tool integrations
-├── day_03_frameworks/        # (Upcoming) Advanced Agentic Orchestration Frameworks
-├── day_04_evaluation/        # (Upcoming) Testing and iterating agent behaviors
-└── day_05_capstone/          # (Upcoming) The final production-grade Agent deployment
+├── day_02_agent_tools/
+│   └── 05_lro_agent_full.py   # Tool execution incorporating MCP, Custom Tooling, and LROs
+│
+├── day_03_frameworks/         # (Upcoming) Advanced Agentic Orchestration Frameworks
+├── day_04_evaluation/         # (Upcoming) Testing and iterating agent behaviors
+└── day_05_capstone/           # (Upcoming) The final production-grade Agent deployment
