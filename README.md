@@ -17,7 +17,8 @@ While the course provides web-based Jupyter Notebooks on Kaggle, this repository
 
 ---
 
-🚀 Learning Progression
+##🚀 Learning Progression
+
 Day 1: Foundations - Establishing the agent lifecycle, prompt engineering, and multi-agent routing.
 
 Day 2: Agent Tools - Bridging AI to the digital ecosystem through Function Calling, MCP, and human-in-the-loop workflows.
