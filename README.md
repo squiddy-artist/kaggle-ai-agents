@@ -16,15 +16,6 @@ While the course provides web-based Jupyter Notebooks on Kaggle, this repository
     * `_gemini.py`: Optimized for **Google Gemini (Cloud API)**, utilizing built-in Google code execution and advanced cloud reasoning.
 
 ---
-
-##🚀 Learning Progression
-
-Day 1: Foundations - Establishing the agent lifecycle, prompt engineering, and multi-agent routing.
-
-Day 2: Agent Tools - Bridging AI to the digital ecosystem through Function Calling, MCP, and human-in-the-loop workflows.
-
-Day 3: Context Engineering - Enabling persistent intelligence through session management, memory compaction, and long-term storage.
-
 ## 📂 Repository Structure
 
 ```text
