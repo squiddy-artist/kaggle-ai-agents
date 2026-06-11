@@ -17,6 +17,13 @@ While the course provides web-based Jupyter Notebooks on Kaggle, this repository
 
 ---
 
+🚀 Learning Progression
+Day 1: Foundations - Establishing the agent lifecycle, prompt engineering, and multi-agent routing.
+
+Day 2: Agent Tools - Bridging AI to the digital ecosystem through Function Calling, MCP, and human-in-the-loop workflows.
+
+Day 3: Context Engineering - Enabling persistent intelligence through session management, memory compaction, and long-term storage.
+
 ## 📂 Repository Structure
 
 ```text
@@ -51,11 +58,3 @@ kaggle-ai-agents/
 │
 ├── day_04_evaluation/        # (Upcoming) Testing and iterating agent behaviors
 └── day_05_capstone/          # (Upcoming) Final production-grade deployment
-
-
-🚀 Learning Progression
-Day 1: Foundations - Establishing the agent lifecycle, prompt engineering, and multi-agent routing.
-
-Day 2: Agent Tools - Bridging AI to the digital ecosystem through Function Calling, MCP, and human-in-the-loop workflows.
-
-Day 3: Context Engineering - Enabling persistent intelligence through session management, memory compaction, and long-term storage.
